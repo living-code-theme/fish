@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "fish",
+  "slug": "fish",
+  "group": "CLI & TUI",
+  "emoji": "🐟",
+  "description": "Living Code for fish. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://fishshell.com",
+  "quick": "See installation instructions",
+  "aliases": [
+    "fish"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.theme",
+    "living-code-night.theme",
+    "living-code-paper.theme",
+    "living-code-signal.theme"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "fish running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "fish running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "fish running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "fish running Living Code Signal"
+    }
+  ]
+}
